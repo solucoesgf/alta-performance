@@ -1,51 +1,262 @@
-:root {
-    --wp--preset--aspect-ratio--square: 1;
-    --wp--preset--aspect-ratio--4-3: 4/3;
-    --wp--preset--aspect-ratio--3-4: 3/4;
-    --wp--preset--aspect-ratio--3-2: 3/2;
-    --wp--preset--aspect-ratio--2-3: 2/3;
-    --wp--preset--aspect-ratio--16-9: 16/9;
-    --wp--preset--aspect-ratio--9-16: 9/16;
-    --wp--preset--color--black: #000;
-    --wp--preset--color--cyan-bluish-gray: #abb8c3;
-    --wp--preset--color--white: #fff;
-    --wp--preset--color--pale-pink: #f78da7;
-    --wp--preset--color--vivid-red: #cf2e2e;
-    --wp--preset--color--luminous-vivid-orange: #ff6900;
-    --wp--preset--color--luminous-vivid-amber: #fcb900;
-    --wp--preset--color--light-green-cyan: #7bdcb5;
-    --wp--preset--color--vivid-green-cyan: #00d084;
-    --wp--preset--color--pale-cyan-blue: #8ed1fc;
-    --wp--preset--color--vivid-cyan-blue: #0693e3;
-    --wp--preset--color--vivid-purple: #9b51e0;
-    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, #9b51e0 100%);
-    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, #7adcb4 0%, #00d082 100%);
-    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, #cf2e2e 100%);
-    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, #eee 0%, #a9b8c3 100%);
-    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
-    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, #ffceec 0%, #9896f0 100%);
-    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, #fecda5 0%, #fe2d2d 50%, #6b003e 100%);
-    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, #ffcb70 0%, #c751c0 50%, #4158d0 100%);
-    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, #fff5cb 0%, #b6e3d4 50%, #33a7b5 100%);
-    --wp--preset--gradient--electric-grass: linear-gradient(135deg, #caf880 0%, #71ce7e 100%);
-    --wp--preset--gradient--midnight: linear-gradient(135deg, #020381 0%, #2874fc 100%);
-    --wp--preset--font-size--small: 13px;
-    --wp--preset--font-size--medium: 20px;
-    --wp--preset--font-size--large: 36px;
-    --wp--preset--font-size--x-large: 42px;
-    --wp--preset--spacing--20: .44rem;
-    --wp--preset--spacing--30: .67rem;
-    --wp--preset--spacing--40: 1rem;
-    --wp--preset--spacing--50: 1.5rem;
-    --wp--preset--spacing--60: 2.25rem;
-    --wp--preset--spacing--70: 3.38rem;
-    --wp--preset--spacing--80: 5.06rem;
-    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, .2);
-    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, .4);
-    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, .2);
-    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
-    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+
+@font-face {
+    font-display: swap;
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot);
+    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.svg#Sora)format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Sora";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot);
+    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.svg#Sora)format("svg")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzc.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxIIzc.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc9.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxP.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc9.ttf)format("truetype")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc9.ttf)format("truetype")
 }
 
 /* latin-ext */
@@ -154,6 +365,56 @@
     font-weight: 900;
     src: url(https://fonts.gstatic.com/s/poppins/v22/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --wp--preset--aspect-ratio--square: 1;
+    --wp--preset--aspect-ratio--4-3: 4/3;
+    --wp--preset--aspect-ratio--3-4: 3/4;
+    --wp--preset--aspect-ratio--3-2: 3/2;
+    --wp--preset--aspect-ratio--2-3: 2/3;
+    --wp--preset--aspect-ratio--16-9: 16/9;
+    --wp--preset--aspect-ratio--9-16: 9/16;
+    --wp--preset--color--black: #000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #fff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, #9b51e0 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, #7adcb4 0%, #00d082 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, #cf2e2e 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, #eee 0%, #a9b8c3 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, #4aeadc 0%, #9778d1 20%, #cf2aba 40%, #ee2c82 60%, #fb6962 80%, #fef84c 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, #ffceec 0%, #9896f0 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, #fecda5 0%, #fe2d2d 50%, #6b003e 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, #ffcb70 0%, #c751c0 50%, #4158d0 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg, #fff5cb 0%, #b6e3d4 50%, #33a7b5 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg, #caf880 0%, #71ce7e 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg, #020381 0%, #2874fc 100%);
+    --wp--preset--font-size--small: 13px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 36px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--spacing--20: .44rem;
+    --wp--preset--spacing--30: .67rem;
+    --wp--preset--spacing--40: 1rem;
+    --wp--preset--spacing--50: 1.5rem;
+    --wp--preset--spacing--60: 2.25rem;
+    --wp--preset--spacing--70: 3.38rem;
+    --wp--preset--spacing--80: 5.06rem;
+    --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, .2);
+    --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, .4);
+    --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, .2);
+    --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+    --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
 }
 
 html {
@@ -1145,7 +1406,7 @@ button:not(:disabled) {
     font-weight: 600;
     fill: #000;
     color: #000;
-    background-image: linear-gradient(90deg, #00b020 0, #84ff00 100%);
+    background-image: linear-gradient(90deg, #ffe400 0, #bf8802 100%);
     border-radius: 61px;
     padding: 20px
 }
@@ -1177,8 +1438,8 @@ button:not(:disabled) {
     --border-right-width: 0px;
     --border-bottom-width: 1px;
     --border-left-width: 0px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --padding-top: 80px;
     --padding-bottom: 80px;
     --padding-left: 0px;
@@ -1442,7 +1703,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-4060026:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(90deg, #000 27%, #003d41 100%)
+    background-image: linear-gradient(90deg, #000 27%, #242321 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-5ea9830 {
@@ -1487,8 +1748,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #005359;
-    --border-color: #005359;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 30px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -1498,7 +1759,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-0c5b666:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #003d41 0, #000f10 100%)
+    background-image: linear-gradient(180deg, #413d00 0, #100c00 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-0c5b666.e-con {
@@ -1528,8 +1789,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #005359;
-    --border-color: #005359;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 30px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -1539,7 +1800,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-6359b8a:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #003d41 0, #000f10 100%)
+    background-image: linear-gradient(180deg, #413d00 0, #100c00 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-7962f51 {
@@ -1566,8 +1827,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #005359;
-    --border-color: #005359;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 30px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -1577,7 +1838,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-d7d2be3:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #003d41 0, #000f10 100%)
+    background-image: linear-gradient(180deg, #413d00 0, #100c00 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-c220454 {
@@ -1855,7 +2116,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-2e12f69 .elementor-image-box-title {
-    color: #548083;
+    color: #8b8b8b;
     font-family: "Sora", Sans-serif;
     font-size: 22px;
     font-weight: 900
@@ -1999,7 +2260,7 @@ button:not(:disabled) {
     font-weight: 600;
     fill: #000;
     color: #000;
-    background-image: linear-gradient(90deg, #00b020 0, #84ff00 100%);
+    background-image: linear-gradient(90deg, #ffe400 0, #bf8802 100%);
     border-radius: 61px;
     padding: 20px
 }
@@ -2225,7 +2486,7 @@ button:not(:disabled) {
     font-weight: 600;
     fill: #000;
     color: #000;
-    background-image: linear-gradient(90deg, #00b020 0, #84ff00 100%);
+    background-image: linear-gradient(90deg, #ffe400 0, #bf8802 100%);
     border-radius: 61px;
     padding: 20px
 }
@@ -2543,7 +2804,7 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
     font-weight: 600;
     fill: #000;
     color: #000;
-    background-image: linear-gradient(90deg, #00b020 0, #84ff00 100%);
+    background-image: linear-gradient(90deg, #ffe400 0, #bf8802 100%);
     border-radius: 61px;
     padding: 20px
 }
@@ -2948,7 +3209,7 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
 .elementor-10357 .elementor-element.elementor-element-3075472 .elementor-countdown-digits,
 deg2,
 deg3 {
-    background-image: linear-gradient(to bottom, #82fc00, #346400);
+    background-image: linear-gradient(to bottom, #ffe400, #bf8802);
     color: #000;
     background-clip: text;
     -webkit-background-clip: text;
@@ -2967,278 +3228,18 @@ html {
 
 deg2,
 deg3 {
-    background-image: linear-gradient(to bottom, #84ff00, #00b020);
+    background-image: linear-gradient(to bottom, #ffe400, #bf8802);
     font-weight: 700
 }
 
 deg3 {
-    background-image: linear-gradient(to right, #d8ffaf, #82fc00)
+    background-image: linear-gradient(to right, #fff7af, #fcfc00)
 }
 
 riscado {
     text-decoration: line-through;
     text-decoration-color: red;
     color: red
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Sora";
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot);
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.svg#Sora)format("svg")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Sora";
-    font-style: normal;
-    font-weight: 400;
-    font-display: auto;
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot);
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.svg#Sora)format("svg")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 200;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 800;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: italic;
-    font-weight: 900;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 200;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 800;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 900;
-    src: url(https://fonts.gstatic.com/s/montserrat/v29/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOiCnqEu92Fr1Mu51QrEzAdKg.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TjASc6CsE.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1Mu51xIIzc.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TzBic6CsE.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: italic;
-    font-weight: 900;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOjCnqEu92Fr1Mu51TLBCc6CsE.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 100;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgVxIIzc.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 300;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc9.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxP.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 500;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc9.ttf)format("truetype")
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 900;
-    src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc9.ttf)format("truetype")
 }
 
 .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
