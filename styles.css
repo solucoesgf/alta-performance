@@ -5,8 +5,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot);
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Bold.svg#Sora)format("svg")
+    src: url(assets/fonts/Sora-Bold.eot);
+    src: url(assets/fonts/Sora-Bold.eot?#iefix)format("embedded-opentype"), url(assets/fonts/Sora-Bold.woff2)format("woff2"), url(assets/fonts/Sora-Bold.woff)format("woff"), url(assets/fonts/Sora-Bold.ttf)format("truetype"), url(assets/fonts/Sora-Bold.svg#Sora)format("svg")
 }
 
 @font-face {
@@ -15,8 +15,8 @@
     font-style: normal;
     font-weight: 400;
     font-display: auto;
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot);
-    src: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.eot?#iefix)format("embedded-opentype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff2)format("woff2"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.woff)format("woff"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.ttf)format("truetype"), url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/08/Sora-Regular.svg#Sora)format("svg")
+    src: url(assets/fonts/Sora-Regular.eot);
+    src: url(assets/fonts/Sora-Regular.eot?#iefix)format("embedded-opentype"), url(assets/fonts/Sora-Regular.woff2)format("woff2"), url(assets/fonts/Sora-Regular.woff)format("woff"), url(assets/fonts/Sora-Regular.ttf)format("truetype"), url(assets/fonts/Sora-Regular.svg#Sora)format("svg")
 }
 
 @font-face {
@@ -1251,7 +1251,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-9b4efa3:not(.elementor-motion-effects-element-type-background) {
-    background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-hero-1.webp);
+    background-image: url(assets/images_bg/bg-hero-1.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover
@@ -1693,8 +1693,8 @@ button:not(:disabled) {
     --border-right-width: 0px;
     --border-bottom-width: 1px;
     --border-left-width: 0px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --padding-top: 80px;
     --padding-bottom: 80px;
     --padding-left: 0px;
@@ -1870,7 +1870,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-4807629:not(.elementor-motion-effects-element-type-background) {
-    background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-arrow.webp);
+    background-image: url(assets/images_bg/bg-arrow.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover
@@ -1906,7 +1906,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-9baed24 {
     --divider-border-style: solid;
-    --divider-color: #82fc00;
+    --divider-color: #ffe400;
     --divider-border-width: 1px;
     width: var(--container-widget-width, 90%);
     max-width: 90%;
@@ -2138,7 +2138,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-ffdc160:not(.elementor-motion-effects-element-type-background) {
-    background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-price.webp);
+    background-image: url(assets/images_bg/bg-price.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover
@@ -2153,8 +2153,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 20px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -2293,7 +2293,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-acd200a:not(.elementor-motion-effects-element-type-background) {
-    background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-selo.webp);
+    background-image: url(assets/images_bg/bg-selo.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover
@@ -2370,8 +2370,8 @@ button:not(:disabled) {
     --border-right-width: 0px;
     --border-bottom-width: 1px;
     --border-left-width: 0px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --padding-top: 80px;
     --padding-bottom: 80px;
     --padding-left: 15px;
@@ -2379,7 +2379,7 @@ button:not(:disabled) {
 }
 
 .elementor-10357 .elementor-element.elementor-element-3b94efd:not(.elementor-motion-effects-element-type-background) {
-    background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-prince-twoo.webp);
+    background-image: url(assets/images_bg/bg-prince-twoo.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover
@@ -2394,8 +2394,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 20px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -2562,8 +2562,8 @@ button:not(:disabled) {
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #82fc00;
-    --border-color: #82fc00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 20px;
     --padding-top: 40px;
     --padding-bottom: 50px;
@@ -2749,8 +2749,8 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
     --border-right-width: 1px;
     --border-bottom-width: 1px;
     --border-left-width: 1px;
-    border-color: #84ff00;
-    --border-color: #84ff00;
+    border-color: #ffe400;
+    --border-color: #ffe400;
     --border-radius: 20px;
     --padding-top: 40px;
     --padding-bottom: 40px;
@@ -2904,7 +2904,7 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
     }
 
     .elementor-10357 .elementor-element.elementor-element-9b4efa3:not(.elementor-motion-effects-element-type-background) {
-        background-image: url(https://lp.eusoumarcospaulo.com.br/wp-content/uploads/2024/12/bg-mob.webp);
+        background-image: url(assets/images_bg/bg-mob.webp);
         background-position: top center
     }
 
