@@ -2405,7 +2405,7 @@ button:not(:disabled) {
 
 .elementor-10357 .elementor-element.elementor-element-fb6ed83:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #000 0, #00282b 100%)
+    background-image: linear-gradient(180deg, #000 0, #2c290a 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-dce325c {
@@ -2760,7 +2760,7 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
 
 .elementor-10357 .elementor-element.elementor-element-72571e7:not(.elementor-motion-effects-element-type-background) {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #000 0, #00282b 100%)
+    background-image: linear-gradient(180deg, #000 0, #2c290a 100%)
 }
 
 .elementor-10357 .elementor-element.elementor-element-be2ef63,
@@ -3209,7 +3209,7 @@ body:not(.rtl) .elementor-10357 .elementor-element.elementor-element-3075472 .el
 .elementor-10357 .elementor-element.elementor-element-3075472 .elementor-countdown-digits,
 deg2,
 deg3 {
-    background-image: linear-gradient(to bottom, #ffe400, #bf8802);
+    background-image: linear-gradient(to bottom, #ffef64, #bf8802);
     color: #000;
     background-clip: text;
     -webkit-background-clip: text;
@@ -3228,7 +3228,7 @@ html {
 
 deg2,
 deg3 {
-    background-image: linear-gradient(to bottom, #ffe400, #bf8802);
+    background-image: linear-gradient(to bottom, #ffef64, #bf8802);
     font-weight: 700
 }
 
